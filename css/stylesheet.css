@@ -1,0 +1,307 @@
+/* general */
+
+html { 
+background: url(/images/nexus7hd.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+}
+
+img { 
+   border: 0; 
+}
+
+.fix {
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+}
+
+.indexpage { 
+   background-color: black; 
+}
+
+.searcharea {
+  width: 100%;
+  margin: 5px;
+}
+
+.smallsearcharea {
+  width: 40%;
+  margin: 5px;
+}
+
+.searchbox {
+  background: transparent;
+  border-style:solid;
+  border-width:1px 1px 1px 1px;
+  padding:5px;
+  font-size:0.9em;
+  line-height:1em;
+  float: left;
+  height:26px;
+  color: black;
+/*
+  text-shadow: 1px 1px white;
+*/
+  width: calc(100% - 55px); 
+}
+
+.smallsearchbox {
+  background: transparent;
+  border-style:solid;
+  border-width:1px 1px 1px 1px;
+  padding:5px;
+  font-size:0.9em;
+  line-height:1em;
+  float: left;
+  height:26px;
+  color: black;
+/*
+  text-shadow: 1px 1px white;
+*/
+  width: 40%;
+}
+
+.searchimage {
+  position:relative;
+  display:inline-block;
+  float: right;
+  margin-right: 5px;
+}
+.smallsearchimage {
+  position:relative;
+  display:inline-block;
+  float: left;
+  margin-left: 5px;
+}
+
+.icongroup {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  z-index: -1;
+}
+
+.hrline {
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  text-align: center;
+}
+
+.homeicons li { 
+  float: left;
+}
+
+.homeicons li p { 
+   margin-top: 3px;
+   margin-bottom: 3px;
+   text-align: center; 
+   font-size: small; 
+   color: black;
+   text-shadow: 1px 1px white;
+}
+
+.indentsubtitle {
+   margin-left: 25px;
+}
+
+.roundcorner {
+/*   border: 2px solid black; */
+   border-radius: 8px;
+   -moz-border-radius: 8px;
+   -khtml-border-radius: 8px;
+   -webkit-border-radius: 8px;
+}
+
+.imagepointer:hover {
+  cursor: pointer;
+}
+
+.iconrowul {
+   list-style-type: none;
+   padding-left: 10px;
+}
+
+.iconrowul li {
+  padding: 0 20px 0 0;
+  display: inline;
+}
+
+.rightpadding {
+  padding-right: 20px;
+}
+
+/* stbooks page */
+
+.booklist {
+   list-style-type: none;
+}
+
+.booksubgroup {
+   margin-left: 3em;
+}
+
+.read, .readall li {
+   text-decoration: line-through;
+}
+
+.readall .unread {
+   text-decoration: none;
+}
+
+.bookcatagory {
+   font-weight: bold;
+}
+
+.bookarea {
+   width: 95%;
+   margin: auto auto;
+}
+
+.menuicons {
+   float: right;
+}
+
+.stseries {
+   display: inline;
+}
+
+.stseries:hover {
+   cursor: pointer;
+}
+
+#seriesTOS, #seriesTNG, #seriesDS9, #seriesVOY, #seriesENT, #seriesNF, #seriesGORK, #seriesTTN, #seriesVAN, #seriesSCE, #seriesTP, #seriesLOST, #seriesOTHER, #seriesMU, #seriesDTI, #seriesCROSS {
+   display: none;
+   visibility: hidden;
+}
+
+.hideoverflow {
+   overflow: hidden;
+}
+
+/* cd pages */
+
+.overflow {
+   overflow-y: scroll;
+}
+
+.cdpagebgcolor { 
+   background-color: white; 
+}
+
+.commentimg {
+  text-align: center;
+}
+
+.bandnameheading {
+  text-align: center;
+  background: gray;
+}
+
+.bandtitle {
+  margin-bottom: 8px;
+}
+
+.headingcenter {
+  text-align: center;
+}
+
+.cd {
+  min-height: 64px;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cdinfo {
+   list-style-type: none;
+   margin: 0 0 0 0;
+   padding: 0;
+}
+
+.cdheaderrow {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.artistcomment {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.cdcover, .cdheaderright {
+  float: right;
+}
+
+.cdcoverhome, .cdheaderleft {
+  float: left;
+}
+
+/* chart pages stuff */
+        .chartmenu {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            text-align: center;
+        }
+
+        .sitecharts {
+            max-height: 500px;
+            /*
+            min-width: 510px;
+            max-width: 800px;
+            */
+            margin: 0 auto;
+        }
+
+
+
+
+/* general */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.ui-combobox {
+   position: relative;
+   display: inline-block;
+}
+
+.ui-combobox-toggle {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   margin-left: -1px;
+   padding: 0;
+}
+
+.ui-combobox-input {
+   margin: 0;
+   padding: 0.3em;
+}
+
+.divideline {
+   height: 20px;
+   background: gray;
+}
+
+.playbutton {
+   float: right;
+   text-align: right;
+   padding-left: 50px;
+}
