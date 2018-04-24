@@ -26,7 +26,7 @@ $domain = $server[(count($server)-2)];
 </div>
 <div class="homeicons">
 <ul class="iconrowul">
-   <li><img class="roundcorner" src=/images/ronicon.png height=64 width=64></p>
+   <li><img class="roundcorner" src=/images/ronicon.png height=64 width=64><p>Ron Corral</p>
 </ul>
 </div>
 
