@@ -174,7 +174,7 @@ img {
    cursor: pointer;
 }
 
-#seriesTOS, #seriesTNG, #seriesDS9, #seriesVOY, #seriesENT, #seriesNF, #seriesGORK, #seriesTTN, #seriesVAN, #seriesSCE, #seriesTP, #seriesLOST, #seriesOTHER, #seriesMU, #seriesDTI, #seriesCROSS {
+#seriesTOS, #seriesTNG, #seriesDS9, #seriesVOY, #seriesENT, #seriesNF, #seriesGORK, #seriesTTN, #seriesVAN, #seriesSCE, #seriesTP, #seriesLOST, #seriesOTHER, #seriesMU, #seriesDTI, #seriesCROSS, #seriesDIS {
    display: none;
    visibility: hidden;
 }

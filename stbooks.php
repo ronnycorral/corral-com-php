@@ -653,6 +653,7 @@ span:hover>img { display: inline; }
 <li><span><cite>Acts of Contrition</cite> &middot; Kirsten Beyer<img class=bookcover src="images/bookcovers/stacts.jpg" /></span></li>
 <li><span><cite>Atonement</cite> &middot; Kirsten Beyer<img class=bookcover src="images/bookcovers/statonement.jpg" /></span></li>
 <li><span><cite>A Pocket Full of Lies</cite> &middot; Kirsten Beyer<img class=bookcover src="images/bookcovers/stpocket.jpg" /></span></li>
+<li class="unread"><cite>Architects of Infinity</cite> &middot; Kirsten Beyer</li>
 </div>
 </ul>
 
@@ -684,6 +685,14 @@ span:hover>img { display: inline; }
     <li><span><cite>Rise of the Federation: Live by the Code</cite> &middot; Christopher L. Bennett<img class=bookcover src="images/bookcovers/strise4.jpg" /></span></li>
     <li class="unread"><cite>Rise of the Federation: Patterns of Interference</cite> &middot; Christopher L. Bennett</li>
 </div>
+</ul>
+
+<li><h2 class="stseries" onclick="toggle_visibility('seriesDIS');">Discovery</h2></li>
+
+<ul id="seriesDIS" class="booklist readall">
+   <li class="unread"><cite>Desperate Hours</cite> &middot; David Mack</li>
+   <li class="unread"><cite>Drastic Measures</cite> &middot; Dayton Ward</li>
+   <li class="unread"><cite>Fear Itself</cite> &middot; James Swallow</li>
 </ul>
 
 <li><h2 class="stseries" onclick="toggle_visibility('seriesNF');">New Frontier</h2></li>
@@ -1068,8 +1077,12 @@ and
 <li><span><cite>The Klingon Art of War</cite> &middot; Keith R.A. DeCandido<img class='bookcover up' src="images/bookcovers/stkart.jpg" /></span></li>
 <li><span><cite>Hidden Universe Travel Guide: Vulcan</cite> &middot; Dayton Ward<img class='bookcover up' src="images/bookcovers/stvtg.jpg" /></span></li>
 <li><span><cite>Hidden Universe Travel Guide: Klingon</cite> &middot; Dayton Ward</span></li>
-</ul>
-
+<li class="bookcatagory unread">Prometheus</li>
+   <div class="booksubgroup">
+   <li class="unread"><cite>Fire with Fire</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
+   <li class="unread"><cite>The Root of All Rage</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
+   <li class="unread"><cite>In the Heart of Chaos</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
+   </div>
 </ul>
 
 </div>
