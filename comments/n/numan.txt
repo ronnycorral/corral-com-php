@@ -1,1 +1,1 @@
-<p class="commentimg"><IMG SRC="/images/covers/n/nglogo.gif" ALT="[Gary Numan logo]" WIDTH=200 HEIGHT=200></p>
+<p class="commentimg"><IMG SRC="/images/cdcovers/n/nglogo.gif" ALT="[Gary Numan logo]" WIDTH=200 HEIGHT=200></p>

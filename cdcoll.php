@@ -43,7 +43,7 @@ if (isset($_GET["artist_id"])){
 
    for($i = 0; $i < count($cd_info); $i++) {
         $cd_div_info .= '<div class="cf cd">';
-        $cd_div_info .= '<img class="cdcover" src="/images/covers/' . substr($cd_info[$i]['cover'],0,1) . '/' . $cd_info[$i]['cover'] . '" height=64 width=64 alt="' . htmlspecialchars($cd_info[$i]['title']) . '" title="' . htmlspecialchars($cd_info[$i]['title']) . '">';
+        $cd_div_info .= '<img class="cdcover" src="/images/cdcovers/' . substr($cd_info[$i]['cover'],0,1) . '/' . $cd_info[$i]['cover'] . '" height=64 width=64 alt="' . htmlspecialchars($cd_info[$i]['title']) . '" title="' . htmlspecialchars($cd_info[$i]['title']) . '">';
         $cd_div_info .= '<ul class="cdinfo"><li><b>Title:</b> ' . htmlspecialchars($cd_info[$i]['title']) . '</li>';
         if ($cd_info[$i]['label'] != "") {
            $cd_div_info .= '<ul class="cdinfo"><li><b>Label:</b> ' . htmlspecialchars($cd_info[$i]['label']) . '</li>';
@@ -219,7 +219,7 @@ $(function(){
 <h3>Browse through my CD collection</h3>
 
 <div class="cdheaderleft rightpadding">
-<img src="/images/covers/favcovers.gif" alt="Favorite CD covers" width=64 height=64 class="roundcorner">
+<img src="/images/cdcovers/favcovers.gif" alt="Favorite CD covers" width=64 height=64 class="roundcorner">
 </div>
 <div class="cdheaderright">
 Select an artist to view or just start typing:

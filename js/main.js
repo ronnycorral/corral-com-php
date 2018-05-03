@@ -110,7 +110,7 @@ function printCD(cdData)
 
    for(i = 0; i < cdData.length; i++) {
         out += '<div class="cf cd">'
-        out += '<img class="cdcover" src="/images/covers/' + cdData[i].cover.substring(0,1) + '/' + cdData[i].cover + '" height=64 width=64 alt="' + htmlEntitiesEncode(cdData[i].title) + '" title="' + htmlEntitiesEncode(cdData[i].title) + '">'
+        out += '<img class="cdcover" src="/images/cdcovers/' + cdData[i].cover.substring(0,1) + '/' + cdData[i].cover + '" height=64 width=64 alt="' + htmlEntitiesEncode(cdData[i].title) + '" title="' + htmlEntitiesEncode(cdData[i].title) + '">'
         out += '<ul class="cdinfo"><li><b>Title:</b> ' + cdData[i].title + '</li>'
         if (cdData[i].label != "") {
            out += '<ul class="cdinfo"><li><b>Label:</b> ' + cdData[i].label + '</li>'
