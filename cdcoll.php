@@ -263,7 +263,7 @@ foreach($artlistmemcacheinfo as $i => $row) {
 ?>
 <!-- SwishCommand index -->
 </SELECT>
-<input type="image" alt="Submit" src="/images/playcd.png" class="playbutton" width=30 height=30>
+<input type="image" alt="Submit" src="/images/selectartist.png" class="playbutton" width=30 height=30>
 
 </form>
 </div>
