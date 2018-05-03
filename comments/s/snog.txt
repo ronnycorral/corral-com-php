@@ -1,1 +1,0 @@
-<p class="commentimg"><IMG SRC="/images/cdcovers/s/snoglogo.png" ALT="[Snog logo]" WIDTH=200 HEIGHT=198></p>
