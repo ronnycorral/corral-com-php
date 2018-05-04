@@ -219,7 +219,7 @@ $(function(){
 <h3>Browse through my CD collection</h3>
 
 <div class="cdheaderleft rightpadding">
-<img src="/images/cdcovers/favcovers.gif" alt="Favorite CD covers" width=64 height=64 class="roundcorner">
+<img src="/images/favcovers.gif" alt="Favorite CD covers" width=64 height=64 class="roundcorner">
 </div>
 <div class="cdheaderright">
 Select an artist to view or just start typing:
