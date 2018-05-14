@@ -1,7 +1,7 @@
 # corral-com-php
 Docroot and images for http://corral.com 
 <p>
-![Alt text](/mstile-150x150.png?raw=true "corral.com")
+![Alt text](http://corral.com/apple-touch-icon.png "corral.com")
 <p>
 Background tools are found in the <a href="https://github.com/ronnycorral/siteutils">siteutils</a> repository.
 <p>
