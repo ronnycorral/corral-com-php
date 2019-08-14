@@ -184,6 +184,8 @@ span:hover>img { display: inline; }
    <li>#3 &middot; <cite>Purgatory's Key</cite> &middot; Dayton Ward and Kevin Dilmore</li>
    </div>
 <li><cite>The Face of the Unknown</cite> &middot; Christopher L. Bennett</li>
+<li class="unread"><cite>The Captain's Oath</cite> &middot; Christopher L. Bennett</li>
+<li class="unread"><cite>The Antares Maelstrom</cite> &middot; Greg Cox</li>
 <li class="bookcatagory">Novelizations</li>
    <div class="booksubgroup">
    <li><cite>Star Trek IV: The Voyage Home</cite> &middot; Vonda N. McIntyre</li>
@@ -256,13 +258,13 @@ span:hover>img { display: inline; }
 <li>#39 &middot; <cite>Time For Yesterday</cite> &middot; A.C. Crispin</li>
 <li>#40 &middot; <cite>Timetrap</cite> &middot; David Dvorkin</li>
 <li>#41 &middot; <cite>The Three-Minute Universe</cite> &middot; Barbara Paul</li>
-<li class="unread">#42 &middot; <cite>Memory Prime</cite> &middot; Gar and Judith Reeves-Stevens</li>
+<li>#42 &middot; <cite>Memory Prime</cite> &middot; Gar and Judith Reeves-Stevens</li>
 <li>#43 &middot; <cite>The Final Nexus</cite> &middot; Gene DeWeese</li>
 <li>#44 &middot; <cite>Vulcan's Glory</cite> &middot; D.C. Fontana</li>
-<li class="unread">#45 &middot; <cite>Double, Double</cite> &middot; Michael Jan Friedman</li>
+<li>#45 &middot; <cite>Double, Double</cite> &middot; Michael Jan Friedman</li>
 <li>#46 &middot; <cite>The Cry of the Onlies</cite> &middot; Judy Klass</li>
 <li class="unread">#47 &middot; <cite>The Kobayashi Maru</cite> &middot; Julia Ecklar</li>
-<li class="unread">#48 &middot; <cite>Rules of Engagement</cite> &middot; Peter Morwood</li>
+<li>#48 &middot; <cite>Rules of Engagement</cite> &middot; Peter Morwood</li>
 <li>#49 &middot; <cite>The Pandora Principle</cite> &middot; Carolyn Clowes</li>
 <li>#50 &middot; <cite>Doctor's Orders</cite> &middot; Diane Duane</li>
 <li class="unread">#51 &middot; <cite>Enemy Unseen</cite> &middot; V.E. Mitchell</li>
@@ -388,6 +390,8 @@ span:hover>img { display: inline; }
 <li><cite>Headlong Flight</cite> &middot; Dayton Ward</li>
 <li><cite>Hearts and Minds</cite> &middot; Dayton Ward</li>
 <li class="unread"><cite>The Autobiography of Jean-Luc Picard</cite> &middot; David A. Goodman</li>
+<li class="unread"><cite>Available Light</cite> &middot; Dayton Ward</li>
+<li class="unread"><cite>Collateral Damage</cite> &middot; David Mack</li>
 <li>Stargazer</li>
 <div class="booksubgroup">
 <li><cite>The Valiant</cite> &middot; Michael Jan Friedman</li>
@@ -693,6 +697,8 @@ span:hover>img { display: inline; }
    <li class="unread"><cite>Desperate Hours</cite> &middot; David Mack</li>
    <li class="unread"><cite>Drastic Measures</cite> &middot; Dayton Ward</li>
    <li class="unread"><cite>Fear Itself</cite> &middot; James Swallow</li>
+   <li class="unread"><cite>The Way To The Stars</cite> &middot; by Una McCormack</li>
+   <li class="unread"><cite>The Enterprise War</cite> &middot; by John Jackson Miller</li>
 </ul>
 
 <li><h2 class="stseries" onclick="toggle_visibility('seriesNF');">New Frontier</h2></li>
