@@ -572,9 +572,9 @@ span:hover>img { display: inline; }
       <li><cite>Unity</cite> &middot; S.D. Perry</li>
       <li><span>Worlds of Star Trek: Deep Space Nine<img class=booksquare src="images/bookcovers/stworldsO.jpg" /></span></li>
       <div class="booksubgroup">
-         <li>#1 &middot; <cite>Cardassia and Andor</cite>, by Una McCormack and Heather Jarman</li>
-         <li>#2 &middot; <cite>Trill and Bajor</cite>, by Michael A. Martin &amp; Andy Mangels and J. Noah Kym</li>
-         <li>#3 &middot; <cite>The Dominion and Ferenginar</cite>, by David R. George III and Keith R.A. DeCandido</li>
+         <li>#1 &middot; <cite>Cardassia and Andor</cite> &middot; Una McCormack and Heather Jarman</li>
+         <li>#2 &middot; <cite>Trill and Bajor</cite> &middot; Michael A. Martin &amp; Andy Mangels and J. Noah Kym</li>
+         <li>#3 &middot; <cite>The Dominion and Ferenginar</cite> &middot; David R. George III and Keith R.A. DeCandido</li>
       </div>
       <li><cite>Warpath</cite> &middot; David Mack</li>
    <li><cite>Fearful Symmetry</cite> &middot; Olivia Woods</li>
@@ -587,8 +587,8 @@ span:hover>img { display: inline; }
    <li><cite>Rules of Accusation</cite> &middot; Paula M. Block &amp; Terry J. Erdmann</li>
    <li><cite>The Long Mirage</cite> &middot; David R. George III</li>
    <li><cite>Enigma Tales</cite> &middot; Una McCormack</li>
-   <li class="unread"><cite>Original Sin</cite> &middot; David R. George III</li>
-   <li class="unread"><cite>I, The Constable</cite> &middot; Paula M. Block &amp; Terry J. Erdmann</li>
+   <li><cite>Original Sin</cite> &middot; David R. George III</li>
+   <li><cite>I, The Constable</cite> &middot; Paula M. Block &amp; Terry J. Erdmann</li>
    </div>
 </ul>
 
@@ -697,8 +697,8 @@ span:hover>img { display: inline; }
    <li class="unread"><cite>Desperate Hours</cite> &middot; David Mack</li>
    <li class="unread"><cite>Drastic Measures</cite> &middot; Dayton Ward</li>
    <li class="unread"><cite>Fear Itself</cite> &middot; James Swallow</li>
-   <li class="unread"><cite>The Way To The Stars</cite> &middot; by Una McCormack</li>
-   <li class="unread"><cite>The Enterprise War</cite> &middot; by John Jackson Miller</li>
+   <li class="unread"><cite>The Way To The Stars</cite> &middot; Una McCormack</li>
+   <li class="unread"><cite>The Enterprise War</cite> &middot; John Jackson Miller</li>
 </ul>
 
 <li><h2 class="stseries" onclick="toggle_visibility('seriesNF');">New Frontier</h2></li>
