@@ -657,7 +657,7 @@ span:hover>img { display: inline; }
 <li><span><cite>Acts of Contrition</cite> &middot; Kirsten Beyer<img class=bookcover src="images/bookcovers/stacts.jpg" /></span></li>
 <li><span><cite>Atonement</cite> &middot; Kirsten Beyer<img class=bookcover src="images/bookcovers/statonement.jpg" /></span></li>
 <li><span><cite>A Pocket Full of Lies</cite> &middot; Kirsten Beyer<img class=bookcover src="images/bookcovers/stpocket.jpg" /></span></li>
-<li class="unread"><cite>Architects of Infinity</cite> &middot; Kirsten Beyer</li>
+<li><cite>Architects of Infinity</cite> &middot; Kirsten Beyer</li>
 </div>
 </ul>
 
@@ -699,6 +699,7 @@ span:hover>img { display: inline; }
    <li class="unread"><cite>Fear Itself</cite> &middot; James Swallow</li>
    <li class="unread"><cite>The Way To The Stars</cite> &middot; Una McCormack</li>
    <li class="unread"><cite>The Enterprise War</cite> &middot; John Jackson Miller</li>
+   <li class="unread"><cite>Dead Endless</cite> &middot; Dave Galanter</li>
 </ul>
 
 <li><h2 class="stseries" onclick="toggle_visibility('seriesNF');">New Frontier</h2></li>
