@@ -1011,6 +1011,13 @@ span:hover>img { display: inline; }
    <li><span><cite>The Jackel's Trick</cite> &middot; John Jackson Miller<img class='bookcover' src="images/bookcovers/stprey2.jpg" /></span></li>
    <li><span><cite>The Hall of Heroes</cite> &middot; John Jackson Miller<img class='bookcover' src="images/bookcovers/stprey3.jpg" /></span></li>
    </div>
+<li class="bookcatagory unread">Prometheus</li>
+   <div class="booksubgroup">
+   <li><cite>Fire with Fire</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
+   <li class="unread"><cite>The Root of All Rage</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
+   <li class="unread"><cite>In the Heart of Chaos</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
+   </div>
+
 </ul>
 
 <li><h2 class="stseries" onclick="toggle_visibility('seriesLOST');">The Lost Era</h2></li>
@@ -1084,12 +1091,6 @@ and
 <li><span><cite>The Klingon Art of War</cite> &middot; Keith R.A. DeCandido<img class='bookcover up' src="images/bookcovers/stkart.jpg" /></span></li>
 <li><span><cite>Hidden Universe Travel Guide: Vulcan</cite> &middot; Dayton Ward<img class='bookcover up' src="images/bookcovers/stvtg.jpg" /></span></li>
 <li><span><cite>Hidden Universe Travel Guide: Klingon</cite> &middot; Dayton Ward</span></li>
-<li class="bookcatagory unread">Prometheus</li>
-   <div class="booksubgroup">
-   <li class="unread"><cite>Fire with Fire</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
-   <li class="unread"><cite>The Root of All Rage</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
-   <li class="unread"><cite>In the Heart of Chaos</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
-   </div>
 </ul>
 
 </div>
