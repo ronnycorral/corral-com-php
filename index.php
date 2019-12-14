@@ -24,11 +24,19 @@ $domain = $server[(count($server)-2)];
       <input class="searchimage" type="image" name="submit" src="/images/search.png" height="32" width="32" alt="Search" />
    </form>
 </div>
-<div class="homeicons">
+<div class="homeicons cf">
 <ul class="iconrowul">
    <li><img class="roundcorner" src=/images/ronsoundsuit.jpg height=64 width=64><p>Ron Corral</p>
 </ul>
 </div>
+
+<div class="homeicons">
+<ul class="iconrowul">
+   <li><img class="roundcorner" src=/images/1by1.gif height=64 width=64>
+   <li><a href=hamilton.php><img class="roundcorner" src=/images/hamilton.png height=64 width=64></a><p>Hamilton<br>Lottery</p>
+</ul>
+</div>
+
 
 <div class="icongroup">
    <div class="homeicons cf">
