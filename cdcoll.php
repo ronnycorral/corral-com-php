@@ -66,20 +66,31 @@ $artist_title = isset($artist_info['artist']) ? " - " . htmlentities($artist_inf
 <!doctype html>
 <html class="overflow" lang="en">
 <head>
-  <title>Ron Corral's CD Collection<?php echo $artist_title ?></title>
-  <link href="/css/jquery-ui.min.css" rel="stylesheet">
-  <link href="/css/stylesheet.css" rel="stylesheet">
-  <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="/js/main.js"></script>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffc40d">
-  <meta name="theme-color" content="#ffffff">
-  <meta charset="UTF-8">
-  <meta name=viewport content="width=device-width, initial-scale=1">
+   <title>Ron Corral's CD Collection<?php echo $artist_title ?></title>
+   <link href="/css/jquery-ui.min.css" rel="stylesheet">
+   <link href="/css/stylesheet.css" rel="stylesheet">
+   <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
+   <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+   <script type="text/javascript" src="/js/main.js"></script>
+   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+   <link rel="manifest" href="/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffc40d">
+   <meta name="theme-color" content="#ffffff">
+   <meta charset="UTF-8">
+   <meta name=viewport content="width=device-width, initial-scale=1">
+   <meta property="og:type" content="website">
+   <meta property="og:site_name" content="Ron Corral">
+   <meta property="og:title" content="Ron Corral's CD Collection">
+   <meta property="og:image" content="http://<?php echo $domain; ?>.com/images/cdpage.png">
+   <meta property="og:description" content="I used to buy a lot more CDs than I have lately but here's what I have. My favorites are here along with stuff I have now idea how it ended up in my collection.">
+   <meta property="og:url" content="https://<?php echo $domain; ?>.com/">
+   <meta name="twitter:site" content="@corral">
+   <meta name="twitter:card" content="summary">
+   <meta name="twitter:title" content="Ron Corral's CD Collection">
+   <meta name="twitter:description" content="I used to buy a lot more CDs than I have lately but here's what I have. My favorites are here along with stuff I have now idea how it ended up in my collection.">
+   <meta name="twitter:image" content="http://<?php echo $domain; ?>.com/images/cdpage.png">
 <script>
 $(function(){
     $('select').combobox();

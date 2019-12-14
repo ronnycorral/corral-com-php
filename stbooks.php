@@ -359,7 +359,7 @@ li:hover>div { display: inline; }
 <li><cite>The Battle of Betazed</cite> &middot; Charlotte Douglas &amp; Susan Kearney</li>
 <li><cite>Genesis Force</cite> &middot; John Vornholt</li>
 <li><cite>Do Comets Dream?</cite> &middot; S.P. Somtow</li>
-<li>Slings and Arrows</li>
+<li><cite>Slings and Arrows</cite></li>
    <div class="booksubgroup">
    <li>#1 &middot; <cite>A Sea of Troubles</cite> &middot; J. Steven York &amp; Christina F. York</li>
    <li>#2 &middot; <cite>The Oppressor's Wrong</cite> &middot; Phaedra M. Weldon</li>
@@ -506,14 +506,14 @@ li:hover>div { display: inline; }
    <li><cite>Legends of the Ferengi</cite> &middot; Ira Steven Behr &amp; Robert Hewitt Wolfe</li>
    <li><cite>Prophecy and Change</cite> &middot; Marco Palmieri, ed.</li>
    <li><cite>Hollow Men</cite> &middot; Una McCormack</li>
-   <li>Terok Nor</li>
+   <li><cite>Terok Nor</cite></li>
    <div class="booksubgroup">
       <li><cite>Day of the Vipers</cite> &middot; James Swallow</li>
       <li><cite>Night of the Wolves</cite> &middot; S.D. Perry &amp; Britta Dennison</li>
       <li><cite>Dawn of the Eagles</cite> &middot; S.D. Perry &amp; Britta Dennison</li>
    </div>
    <li><cite>The Never-Ending Sacrifice</cite> &middot; Una McCormack</li>
-   <li>The Dominion War</li>
+   <li><cite>The Dominion War</cite></li>
    <div class="booksubgroup">
       <li>#1 &middot; <cite>Behind Enemy Lines</cite> &middot; John Vornholt</li>
       <li>#2 &middot; <cite>Call to Arms...</cite> &middot; Diane Carey</li>
@@ -580,7 +580,7 @@ li:hover>div { display: inline; }
       <li><cite>Rising Son</cite> &middot; S.D. Perry</li>
       <li><cite>The Left Hand of Destiny, Books </cite><cite>One</cite> &middot; J.G. Hertzler and Jeffrey Lang</li>
       <li><cite>Unity</cite> &middot; S.D. Perry</li>
-      <li>Worlds of Star Trek: Deep Space Nine</li>
+      <li><cite>Worlds of Star Trek: Deep Space Nine</cite></li>
       <div class="booksubgroup">
          <li>#1 &middot; <cite>Cardassia and Andor</cite> &middot; Una McCormack and Heather Jarman</li>
          <li>#2 &middot; <cite>Trill and Bajor</cite> &middot; Michael A. Martin &amp; Andy Mangels and J. Noah Kym</li>
@@ -609,7 +609,7 @@ li:hover>div { display: inline; }
 <li><cite>Pathways</cite> &middot; Jeri Taylor</li>
 <li><cite>Captain Proton: Defender of the Earth</cite> &middot; D.W. "Prof" Smith</li>
 <li><cite>The Nanotech War</cite> &middot; Steve Piziks</li>
-<li>String Theory</li>
+<li><cite>String Theory</cite></li>
 <div class="booksubgroup">
 <li>#1 &middot; <cite>Cohesion</cite> &middot; Jeffrey Lang</li>
 <li>#2 &middot; <cite>Fusion</cite> &middot; Kirsten Beyer</li>
@@ -649,12 +649,12 @@ li:hover>div { display: inline; }
 </div>
 <li class="bookcatagory">Books set after the series</li>
 <div class="booksubgroup">
-<li>Homecoming &middot; Christie Golden</li>
+<li><cite>Homecoming &middot; Christie Golden</cite></li>
 <div class="booksubgroup">
    <li>#1 &middot; <cite>Homecoming</cite></li>
    <li>#2 &middot; <cite>The Farther Shore</cite></li>
 </div>
-<li>Spirit Walk &middot; Christie Golden</li>
+<li><cite>Spirit Walk &middot; Christie Golden</cite></li>
 <div class="booksubgroup">
    <li>#1 &middot; <cite>Old Wounds</cite></li>
    <li>#2 &middot; <cite>Enemy of My Enemy</cite></li>
@@ -697,7 +697,7 @@ li:hover>div { display: inline; }
     <li><cite>Rise of the Federation: Tower of Babel</cite> &middot; Christopher L. Bennett</li>
     <li><cite>Rise of the Federation: Uncertain Logic</cite> &middot; Christopher L. Bennett</li>
     <li><cite>Rise of the Federation: Live by the Code</cite> &middot; Christopher L. Bennett</li>
-    <li class="unread"><cite>Rise of the Federation: Patterns of Interference</cite> &middot; Christopher L. Bennett</li>
+    <li><cite>Rise of the Federation: Patterns of Interference</cite> &middot; Christopher L. Bennett</li>
 </div>
 </ul>
 
@@ -746,7 +746,7 @@ li:hover>div { display: inline; }
 <li><cite>Turnaround</cite> - Comic &middot; Peter David</li>
 <li>#17 &middot; <cite>Treason</cite> &middot; Peter David</li>
 <li>#18 &middot; <cite>Blind Man's Bluff</cite> &middot; Peter David</li>
-<li>#19 &middot; The Returned &middot; Peter David</li>
+<li>#19 &middot; <cite>The Returned</cite> &middot; Peter David</li>
 <div class="booksubgroup">
 <li><cite>Part One</cite></li>
 <li><cite>Part Two</cite></li>
@@ -777,7 +777,7 @@ li:hover>div { display: inline; }
 <li><cite>Fallen Gods</cite> &middot; Michael A. Martin</li>
 <li><cite>Absent Enemies</cite> &middot; John Jackson Miller</li>
 <li><cite>Sight Unseen</cite> &middot; James Swallow</li>
-<li class="unread"><cite>Fortune of War</cite> &middot; David Mack</li>
+<li><cite>Fortune of War</cite> &middot; David Mack</li>
 </ul>
 
 <li><h2 class="stseries" onclick="toggle_visibility('seriesVAN');">Vanguard &amp; Seekers</h2></li>
@@ -949,7 +949,7 @@ li:hover>div { display: inline; }
 <li><cite>Plagues of Night</cite> &middot; David R. George III</li>
 <li><cite>Raise the Dawn</cite> &middot; David R. George III</li>
 <li><cite>Brinkmanship</cite> &middot; Una McCormack</li>
-<li class="bookcatagory">The Fall</li>
+<li><cite>The Fall</cite></li>
    <div class="booksubgroup">
    <li><cite>Revelation and Dust</cite> &middot; David R. George III</li>
    <li><cite>The Crimson Shadow</cite> &middot; Una McCormack</li>
@@ -978,7 +978,7 @@ li:hover>div { display: inline; }
    <li>DS9 #16 &middot; <cite>Invasion!</cite> #3: <cite>Time's Enemy</cite> &middot; L.A. Graf</li>
    <li>VOY #9 &middot; <cite>Invasion!</cite> #4: <cite>The Final Fury</cite> &middot; Dafydd ab Hugh</li>
    </div>
-<li class="bookcatagory">Gateways</li>
+<li><cite>Gateways</cite></li>
    <div class="booksubgroup">
    <li>#1 &middot; <cite>One Small Step</cite> &middot; Susan Wright</li>
    <li>#2 &middot; <cite>Chainmail</cite> &middot; Diane Carey</li>
@@ -1006,7 +1006,7 @@ li:hover>div { display: inline; }
    <li><cite>Destiny: Lost Souls</cite> &middot; David Mack</li>
    <li><cite>A Singular Destiny</cite> &middot; Keith R.A. DeCandido</li>
    </div>
-<li class="bookcatagory">Section 31</li>
+<li><cite>Section 31</cite></li>
    <div class="booksubgroup">
    <li><cite>Rogue</cite> &middot; Andy Mangels &amp; Michael A. Martin</li>
    <li><cite>Shadow</cite> &middot; Dean Wesley Smith &amp; Kristine Kathryn Rusch</li>
@@ -1015,17 +1015,17 @@ li:hover>div { display: inline; }
    <li><cite>Disavowed</cite> &middot; David Mack</li>
    <li><cite>Control</cite> &middot; David Mack</li>
    </div>
-<li>Prey</li>
+<li><cite>Prey</cite></li>
    <div class="booksubgroup">
    <li><cite>Hell's Heart</cite> &middot; John Jackson Miller</li>
    <li><cite>The Jackel's Trick</cite> &middot; John Jackson Miller</li>
    <li><cite>The Hall of Heroes</cite> &middot; John Jackson Miller</li>
    </div>
-<li class="bookcatagory unread">Prometheus</li>
+<li><cite>Prometheus</cite></li>
    <div class="booksubgroup">
    <li><cite>Fire with Fire</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
-   <li class="unread"><cite>The Root of All Rage</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
-   <li class="unread"><cite>In the Heart of Chaos</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
+   <li><cite>The Root of All Rage</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
+   <li><cite>In the Heart of Chaos</cite> &middot; Bernd Perplies &amp; Christian Humberg</li>
    </div>
 
 </ul>
@@ -1040,7 +1040,7 @@ li:hover>div { display: inline; }
   <li><cite>Deny Thy Father</cite> &middot; Jeff Mariotte</li>
   <li><cite>Catalyst of Sorrows</cite> &middot; Margaret Wander Bonanno</li>
   <li><cite>The Buried Age</cite> &middot; Christopher L. Bennett</li>
-  <li>Terok Nor</li>
+  <li><cite>Terok Nor</cite></li>
   <div class="booksubgroup">
     <li><cite>Day of the Vipers</cite> &middot; James Swallow</li>
     <li><cite>Night of the Wolves</cite> &middot; S.D. Perry &amp; Britta Dennison</li>
