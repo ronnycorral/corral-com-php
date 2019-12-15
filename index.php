@@ -53,7 +53,7 @@ $domain = $server[(count($server)-2)];
    <div class="homeicons">
       <ul class="iconrowul">
             <li><a href="https://twitter.com/ronny_corral"><img class="roundcorner" height="64" width="64" alt="Twitter" title="Twitter" src="/images/twitter.png"></a>
-            <li><a href=https://www.goodreads.com/user/show/12973438-ronny><img height=64 width=64 alt="Goodreads" title="Goodreads" src=/images/goodreads.png></a>
+            <li><a href=https://www.instagram.com/ronnyecorral/><img height=64 width=64 alt="Instagram" title="Instagram" src=/images/instagram.png></a>
             <li><a href=/cdcoll.php><img class="roundcorner" src=/images/cdshelf.jpg height=64 width=64 alt="CD Collection" title="CD Collection"></a>
             <li><a href=/stbooks.php><img class="roundcorner" src=/images/stshelf.jpg height=64 width=64 alt="Star Trek Book Reading Status" title="Star Trek Book Reading Status"></a>
             <li><a href=/charts.php><img class="roundcorner" src=/images/artistcount.png height=64 width=64 alt="Statistics for the site" title="Statistics for the site"></a>
