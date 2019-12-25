@@ -21,10 +21,17 @@ $countrycodearray = "countrycodecount= [";
         <meta name="msapplication-TileColor" content="#ffc40d">
         <meta name="theme-color" content="#ffffff">
         <meta name=viewport content="width=device-width, initial-scale=1">
-<!--
-        <meta name=viewport content="width=device-width, initial-scale=1">
--->
-        <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Ron Corral">
+        <meta property="og:title" content="Ron Corral's Web Site Statistics.">
+        <meta property="og:image" content="http://<?php echo $domain; ?>.com/images/chartspage.png">
+        <meta property="og:description" content="Web site statistics graphically displayed using Highcharts. If I got more traffic the graphs would be more interesting.">
+        <meta property="og:url" content="https://<?php echo $domain; ?>.com/">
+        <meta name="twitter:site" content="@corral">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Ron Corral's Web Site Statistics.">
+        <meta name="twitter:description" content="Web site statistics graphically displayed using Highcharts. If I got more traffic the graphs would be more interesting.">
+        <meta name="twitter:image" content="http://<?php echo $domain; ?>.com/images/chartspage.png">
 	<script type="text/javascript">
 <?php
 $query = "select countryCode, count(*) as codecount from logdata   group by countryCode";
@@ -127,18 +134,15 @@ mysqli_close($dbc);
       <li><img class="roundcorner imagepointer" src='/images/artistcount.png' height=64 width=64 alt="Top artists by CD count" title="Top artists by CD count" onclick="drawBarChartUrls('sitecharts', artistscdcount,cdcount,'Top 15 Artists by CD Count','Number of CDs')"></li>
       <li><img class="roundcorner imagepointer" src='/images/artistcount.png' height=64 width=64 alt="Most visited artists" title="Most visited artists" onclick="drawBarChartUrls('sitecharts', artistsvisitcount,visitcount,'Top 15 Artists by Visit Count','Number of Visits')"></li>
       <li><img class="roundcorner imagepointer" src='/images/piechart.png' height=64 width=64 alt="Percentage of SQL injection attempts" title="Percentage of SQL injection attempts" onclick="drawPieChart('sitecharts', sqlattempts,'Valid SQL Calls vs. SQL Injection Attempts','SQL calls made')"></li>
-<!--
-      <li><a href="/"><img class="roundcorner" onclick="eraseChart('sitecharts');" alt="Home" title="Home" height=64 width=64 src='/images/home.png'></a></li>
--->
       </ul>
    </div>
 </div>
 
 
-<div class="sitecharts"></div>
-<script src="/js/highcharts.js"></script>
-<script src="/js/modules/map.js"></script>
-<script src="/js/maps/world.js"></script>
+<div id="sitecharts" class="sitecharts"></div>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/maps/modules/map.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
 <script src="/js/charts.js"></script>
 </body>
 </html>
