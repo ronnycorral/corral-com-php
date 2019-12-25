@@ -1,23 +1,27 @@
+Highcharts.setOptions({
+    lang: {
+        thousandsSep: ','
+    },
+    credits: {
+        enabled: false
+    },
+    exporting: {
+        enabled: false
+    },
+})
+
 function drawVisitorMap(container, mydata) {
 
-    var myclass = ".".concat(container)
-
-    eraseChart(container)
-
-    $(myclass).highcharts('Map', {
-
-        title : {
-            text : window.location.hostname.toUpperCase() + ' Visitor Map'
+    var myChart = new Highcharts.mapChart({
+        chart: {
+            renderTo: container,
+            map: 'custom/world',
         },
-
-        subtitle : {
-            text : null
+        title: {
+            text: window.location.hostname.toUpperCase() + ' Visitor Map'
         },
-        credits : {
-            enabled: false
-        },
-        exporting : {
-            enabled: false
+        subtitle: {
+            text: null
         },
         mapNavigation: {
             enabled: true,
@@ -25,16 +29,18 @@ function drawVisitorMap(container, mydata) {
                 verticalAlign: 'bottom'
             }
         },
-
         colorAxis: {
             min: 1,
             type: 'logarithmic',
             minColor: '#ffdddd',
             maxColor: '#ff0000'
         },
-        series : [{
-            data : mydata,
-            mapData: Highcharts.maps['custom/world'],
+        tooltip: {
+            pointFormat: '{point.name}: {point.value:,.0f}',
+
+        },
+        series: [{
+            data: mydata,
             joinBy: 'hc-key',
             name: 'Visitors from:',
             states: {
@@ -42,22 +48,15 @@ function drawVisitorMap(container, mydata) {
                     color: '#BADA55'
                 }
             },
-            dataLabels: {
-                enabled: false,
-                format: '{point.name}'
-            }
         }]
     });
 }
 
 function drawBarChartUrls(container, artists, mydata, title, yaxistitle) {
 
-    var myclass = ".".concat(container)
-
-    eraseChart(container)
-
-    $(myclass).highcharts({
+    var myChart = new Highcharts.Chart({
         chart: {
+            renderTo: container,
             type: 'column'
         },
         title: {
@@ -66,21 +65,15 @@ function drawBarChartUrls(container, artists, mydata, title, yaxistitle) {
         subtitle: {
             text: null
         },
-        credits : {
-            enabled: false
-        },
-        exporting : {
-            enabled: false
-        },
         plotOptions: {
             column: {
-               colorByPoint: true
+                colorByPoint: true
             },
             series: {
                 cursor: 'pointer',
                 point: {
                     events: {
-                        click: function () {
+                        click: function() {
                             location.href = this.options.url;
                         }
                     }
@@ -88,15 +81,15 @@ function drawBarChartUrls(container, artists, mydata, title, yaxistitle) {
             }
         },
         colors: [
-           '#4D4D4D',
-           '#5DA5DA',
-           '#FAA43A',
-           '#60BD68',
-           '#F17CB0',
-           '#B2912F',
-           '#B276B2',
-           '#DECF3F',
-           '#F15854'
+            '#4D4D4D',
+            '#5DA5DA',
+            '#FAA43A',
+            '#60BD68',
+            '#F17CB0',
+            '#B2912F',
+            '#B276B2',
+            '#DECF3F',
+            '#F15854'
         ],
         xAxis: {
             type: 'category',
@@ -134,7 +127,7 @@ function drawBarChartUrls(container, artists, mydata, title, yaxistitle) {
                 style: {
                     fontSize: '13px',
                     fontFamily: 'Verdana, sans-serif',
-                    textShadow: '0 0 3px black'
+//                    textShadow: '0 0 3px black'
                 }
             }
         }]
@@ -144,22 +137,13 @@ function drawBarChartUrls(container, artists, mydata, title, yaxistitle) {
 
 function drawPieChart(container, mydata, title, sname) {
 
-    var myclass = ".".concat(container)
-
-    eraseChart(container)
-
-    $(myclass).highcharts({
-        colors: ['green','red'],
+    var myChart = new Highcharts.Chart({
+        colors: ['green', 'red'],
         chart: {
+            renderTo: container,
             plotBackgroundColor: null,
             plotBorderWidth: 1,
             plotShadow: false
-        },
-        credits : {
-            enabled: false
-        },
-        exporting : {
-            enabled: false
         },
         title: {
             text: title
@@ -188,18 +172,7 @@ function drawPieChart(container, mydata, title, sname) {
     });
 }
 
-
-function eraseChart(container) {
-
-   var myclass = ".".concat(container)
-
-    if ( $(myclass).highcharts() ) {
-        $(myclass).highcharts().destroy();
-        $(this).attr('disabled', true);
-     }
-}
-
-function writeIntro(intro,chartClass) {
-   div = document.getElementsByClassName(chartClass)[0]
-   div.innerHTML = instructions;
+function writeIntro(intro, chartClass) {
+    div = document.getElementsByClassName(chartClass)[0]
+    div.innerHTML = instructions;
 }
