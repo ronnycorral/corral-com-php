@@ -26,15 +26,16 @@ $domain = $server[(count($server)-2)];
    <meta name="twitter:title" content="Ron Corral's Hamilton Lottery Results">
    <meta name="twitter:description" content="My wife and I both play the Hamilton Lottery and one of us is way better than the other. Find out which one.">
    <meta name="twitter:image" content="http://<?php echo $domain; ?>.com/images/hamiltonpage.png">
-   <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
    <script type="text/javascript">
-artistscdcount= [
+thewinners= [
 'Ron','Claudia'
 ];
-cdcount= [
-{y: 4,url: '/cdcoll.php?artist_id=84'},{y: 1,url: '/cdcoll.php?artist_id=46'}
+ticketdates = [[ [Date.UTC(2019, 8, 3), 3], [Date.UTC(2019, 8, 15), 3], [Date.UTC(2019, 11, 4), 3], [Date.UTC(2019, 11, 10), 3] ], [[Date.UTC(2019, 6, 28), 2 ]]]
+
+winningcount= [
+{y: 4,url: ''},{y: 1,url: ''}
 ];
-            sqlattempts= [
+            percentagewins= [
                ['Ron',4],
                ['Claudia',1]
             ];
@@ -67,16 +68,17 @@ cdcount= [
 <div class="cdheaderrow cf">
  <div class="menuicons homeicons  cf">
       <ul class="iconrowul">
-      <li><img class="roundcorner imagepointer" src='/images/bars.png' height=64 width=64 alt="How Many Times We Won" title="How Many Times We Won" onclick="drawBarChartUrls('sitecharts', artistscdcount,cdcount,'How Many Times We Won','How Many Times Each Of Us Has Won')"></li>
-      <li><img class="roundcorner imagepointer" src='/images/pie.png' height=64 width=64 alt="Percentage of Times Each of Us Has Won" title="Percentage of Times Each of Us Has Won" onclick="drawPieChart('sitecharts', sqlattempts,'Percentage of Times Each of Us Has Won','Winning Percentage')"></li>
-      <li><img class="roundcorner imagepointer" src='/images/lines.png' height=64 width=64 alt="When we won" title="When we won" onclick="drawHamilton('sitecharts')"></li>
+      <li><img class="roundcorner imagepointer" src='/images/bars.png' height=64 width=64 alt="How Many Times We Won" title="How Many Times We Won" onclick="drawBarChartUrls('sitecharts', thewinners,winningcount,'How Many Times We Won','How Many Times Each Of Us Has Won')"></li>
+      <li><img class="roundcorner imagepointer" src='/images/pie.png' height=64 width=64 alt="Percentage of Times Each of Us Has Won" title="Percentage of Times Each of Us Has Won" onclick="drawPieChart('sitecharts', percentagewins,'Percentage of Times Each of Us Has Won','Winning Percentage')"></li>
+      <li><img class="roundcorner imagepointer" src='/images/lines.png' height=64 width=64 alt="When we won" title="When we won" onclick="drawLineOverLine('sitecharts','When We Won the Hamilton Lottery',thewinners,ticketdates)"></li>
       </ul>
    </div>
 </div>
 
-
-<div class="sitecharts"></div>
-<script src="/js/highcharts-hamilton.js"></script>
-<script src="/js/hamilton.js"></script>
+<div id="sitecharts" class="sitecharts"></div>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/maps/modules/map.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+<script src="/js/charts.js"></script>
 </body>
 </html>
