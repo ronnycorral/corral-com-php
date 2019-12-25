@@ -8,6 +8,17 @@ Highcharts.setOptions({
     exporting: {
         enabled: false
     },
+colors: [
+            '#60BD68',
+            '#B276B2',
+            '#4D4D4D',
+            '#5DA5DA',
+            '#FAA43A',
+            '#F17CB0',
+            '#B2912F',
+            '#DECF3F',
+            '#F15854'
+        ],
 })
 
 function drawVisitorMap(container, mydata) {
@@ -80,17 +91,6 @@ function drawBarChartUrls(container, artists, mydata, title, yaxistitle) {
                 },
             }
         },
-        colors: [
-            '#4D4D4D',
-            '#5DA5DA',
-            '#FAA43A',
-            '#60BD68',
-            '#F17CB0',
-            '#B2912F',
-            '#B276B2',
-            '#DECF3F',
-            '#F15854'
-        ],
         xAxis: {
             type: 'category',
             categories: artists,
@@ -138,7 +138,6 @@ function drawBarChartUrls(container, artists, mydata, title, yaxistitle) {
 function drawPieChart(container, mydata, title, sname) {
 
     var myChart = new Highcharts.Chart({
-        colors: ['green', 'red'],
         chart: {
             renderTo: container,
             plotBackgroundColor: null,
@@ -176,3 +175,63 @@ function writeIntro(intro, chartClass) {
     div = document.getElementsByClassName(chartClass)[0]
     div.innerHTML = instructions;
 }
+
+function drawLineOverLine(container,title,seriesnames,seriesdata) {
+
+var chart1 = new Highcharts.Chart({
+    chart: {
+        renderTo: container,
+    },
+    title: {
+        text: title
+    },
+    xAxis: {
+        type: 'datetime',
+        dateTimeLabelFormats: {
+            day: '%b %e, %Y',
+            week: '%b %e, %Y'
+        }
+    },
+    yAxis: {
+        visible: false,
+        min: 0,
+        max: 4
+    },
+    tooltip: {
+        headerFormat: '<b>{series.name}</b><br>',
+        pointFormat: '{point.x:%B %e, %Y}'
+    },
+    plotOptions: {
+        series: {
+            marker: {
+                enabled: true
+            }
+        }
+    },
+    series: [{
+        name: seriesnames[0],
+        data: seriesdata[0],
+    }, {
+        name: seriesnames[1],
+        data: seriesdata[1],
+    }],
+    responsive: {
+        rules: [{
+            condition: {
+                maxWidth: 500
+            },
+            chartOptions: {
+                plotOptions: {
+                    series: {
+                        marker: {
+                            radius: 2.5
+                        }
+                    }
+                }
+            }
+        }]
+    }
+});
+
+}
+
