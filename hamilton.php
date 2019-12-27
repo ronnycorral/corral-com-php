@@ -41,7 +41,7 @@ winningcount= [
             ];
          </script>
 </head>
-<body>
+<body onload="drawPieChart('sitecharts', percentagewins,'Percentage of Times Each of Us Has Won','Winning Percentage');">
 
 <h1 class="headingcenter">Find Out Who Is Better At The Hamilton Lottery</h1>
 
