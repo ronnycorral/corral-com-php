@@ -273,13 +273,13 @@ li:hover>div { display: inline; }
 <li>#44 &middot; <cite>Vulcan's Glory</cite> &middot; D.C. Fontana</li>
 <li>#45 &middot; <cite>Double, Double</cite> &middot; Michael Jan Friedman</li>
 <li>#46 &middot; <cite>The Cry of the Onlies</cite> &middot; Judy Klass</li>
-<li class="unread">#47 &middot; <cite>The Kobayashi Maru</cite> &middot; Julia Ecklar</li>
+<li>#47 &middot; <cite>The Kobayashi Maru</cite> &middot; Julia Ecklar</li>
 <li>#48 &middot; <cite>Rules of Engagement</cite> &middot; Peter Morwood</li>
 <li>#49 &middot; <cite>The Pandora Principle</cite> &middot; Carolyn Clowes</li>
 <li>#50 &middot; <cite>Doctor's Orders</cite> &middot; Diane Duane</li>
 <li class="unread">#51 &middot; <cite>Enemy Unseen</cite> &middot; V.E. Mitchell</li>
 <li class="unread">#52 &middot; <cite>Home is the Hunter</cite> &middot; Dana Kramer-Rolls</li>
-<li class="unread">#53 &middot; <cite>Ghost-Walker</cite> &middot; Barbara Hambly</li>
+<li>#53 &middot; <cite>Ghost-Walker</cite> &middot; Barbara Hambly</li>
 <li>#54 &middot; <cite>A Flag Full of Stars</cite> &middot; Brad Ferguson</li>
 <li class="unread">#55 &middot; <cite>Renegade</cite> &middot; Gene DeWeese</li>
 <li>#56 &middot; <cite>Legacy</cite> &middot; Michael Jan Friedman</li>
@@ -399,7 +399,7 @@ li:hover>div { display: inline; }
 <li><cite>Armageddon's Arrow</cite> &middot; Dayton Ward</li>
 <li><cite>Headlong Flight</cite> &middot; Dayton Ward</li>
 <li><cite>Hearts and Minds</cite> &middot; Dayton Ward</li>
-<li class="unread"><cite>The Autobiography of Jean-Luc Picard</cite> &middot; David A. Goodman</li>
+<li><cite>The Autobiography of Jean-Luc Picard</cite> &middot; David A. Goodman</li>
 <li class="unread"><cite>Available Light</cite> &middot; Dayton Ward</li>
 <li class="unread"><cite>Collateral Damage</cite> &middot; David Mack</li>
 <li>Stargazer</li>
@@ -1053,6 +1053,7 @@ li:hover>div { display: inline; }
 
 <ul id="seriesMU" class="booklist readall">
   <li><cite>Dark Passions</cite>, Books One &middot; Susan Wright</li>
+  <li><cite>Dark Passions</cite>, Books Two &middot; Susan Wright</li>
   <li><cite>Mirror Universe: Glass Empires</cite> &middot; Mike Sussman, Dayton Ward, Kevin Dilmore, David Mack and Greg Cox</li>
   <li><cite>Mirror Universe: Obsidian Alliances</cite> &middot; Peter David, Keith R.A. DeCandido and Sarah Shaw</li>
   <li><cite>Infinity's Prism</cite> &middot; Christopher L. Bennett, William Leisner, and James Swallow</li>

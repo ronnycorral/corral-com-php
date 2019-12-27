@@ -83,13 +83,13 @@ $visitcountarray .= "\n];\n";
 echo $artistvisitarray;
 echo $visitcountarray;
 
-$query = "select count(*) as count from logdata where (request rlike '/cdcoll.php\\\?artist_id=[0-9]+$')";
+$query = "select count(*) as count from logdata where (request rlike 'artist_id=') and (responseCode = 301 or responseCode = 200)";
 $result = mysqli_query($dbc, $query);
 while($row = mysqli_fetch_array($result)) {
    $validattempts = $row['count'];
 }
 
-$query = "select count(*) as count from logdata where (request rlike '/cdcoll.php[?]artist_id=')";
+$query = "select count(*) as count from logdata where (request rlike 'artist_id=')";
 $result = mysqli_query($dbc, $query);
 while($row = mysqli_fetch_array($result)) {
    $totalrequests = $row['count'];
