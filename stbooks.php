@@ -277,7 +277,7 @@ li:hover>div { display: inline; }
 <li>#48 &middot; <cite>Rules of Engagement</cite> &middot; Peter Morwood</li>
 <li>#49 &middot; <cite>The Pandora Principle</cite> &middot; Carolyn Clowes</li>
 <li>#50 &middot; <cite>Doctor's Orders</cite> &middot; Diane Duane</li>
-<li class="unread">#51 &middot; <cite>Enemy Unseen</cite> &middot; V.E. Mitchell</li>
+<li>#51 &middot; <cite>Enemy Unseen</cite> &middot; V.E. Mitchell</li>
 <li class="unread">#52 &middot; <cite>Home is the Hunter</cite> &middot; Dana Kramer-Rolls</li>
 <li>#53 &middot; <cite>Ghost-Walker</cite> &middot; Barbara Hambly</li>
 <li>#54 &middot; <cite>A Flag Full of Stars</cite> &middot; Brad Ferguson</li>
@@ -286,7 +286,7 @@ li:hover>div { display: inline; }
 <li>#57 &middot; <cite>The Rift</cite> &middot; Peter David</li>
 <li class="unread">#58 &middot; <cite>Faces of Fire</cite> &middot; Michael Jan Friedman</li>
 <li class="unread">#59 &middot; <cite>The Disinherited</cite> &middot; Peter David, Michael Jan Friedman, Robert Greenberger</li>
-<li class="unread">#60 &middot; <cite>Ice Trap</cite> &middot; L.A. Graf</li>
+<li>#60 &middot; <cite>Ice Trap</cite> &middot; L.A. Graf</li>
 <li class="unread">#61 &middot; <cite>Sanctuary</cite> &middot; John Vornholt</li>
 <li class="unread">#62 &middot; <cite>Death Count</cite> &middot; L.A. Graf</li>
 <li>#63 &middot; <cite>Shell Game</cite> &middot; Melissa Crandall</li>
