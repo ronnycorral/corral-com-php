@@ -77,7 +77,7 @@ li:hover>div { display: inline; }
 <div class="cdheaderrow cf">
    <div class="menuicons homeicons cf">
       <ul class="iconrowul">
-      <li><a href=https://www.goodreads.com/user/show/12973438-ronny><img height=64 width=64 alt="Goodreads" title="It's not all Star Trek. See what else I read." src=/images/goodreads.png></a>
+      <li><a href=https://www.goodreads.com/review/list/12973438-ronny-corral?order=d&shelf=star-trek&sort=date_read><img height=64 width=64 alt="Goodreads" title="It's not all Star Trek. See what else I read." src=/images/goodreads.png></a>
       <li><a href="/"><img class="roundcorner" height=64 width=64 alt="Home" title="Home" src='/images/home.png'></a></li>
       </ul>
    </div>
