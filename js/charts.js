@@ -29,7 +29,7 @@ function drawVisitorMap(container, mydata) {
             map: 'custom/world',
         },
         title: {
-            text: window.location.hostname.toUpperCase() + ' Visitor Map'
+            text: 'See Where My Visitors Come From'
         },
         subtitle: {
             text: null

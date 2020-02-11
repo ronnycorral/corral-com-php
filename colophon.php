@@ -32,15 +32,25 @@
    </div>
 </div>
 
+<div class="homeicons cf">
+<ul class="iconrowul">
+   <li><a href=https://www.certmetrics.com/amazon/public/badge.aspx?i=5&t=c&d=2019-10-21&ci=AWS00747692><img class="roundcorner" src=/images/devopscert.png height=64 width=64></a><p>AWS DevOps<br>Professional</p>
+   <li><a href=https://www.certmetrics.com/amazon/public/badge.aspx?i=8&t=c&d=2020-01-13&ci=AWS00747692><img class="roundcorner" src=/images/bigdatacert.png height=64 width=64></a><p>AWS Big Data<br>Specialty</p>
+</ul>
+</div>
+<div class="homeicons cf">
+<ul class="iconrowul">
+   <li><img class="roundcorner" src=/images/1by1.gif height=64 width=64>
+   <li><a href=https://www.certmetrics.com/amazon/public/badge.aspx?i=3&t=c&d=2019-02-19&ci=AWS00747692><img class="roundcorner" src=/images/sysopscert.png height=64 width=64></a><p>AWS SysOps<br>Associate</p>
+   <li><a href=https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-10-15&ci=AWS00747692><img class="roundcorner" src=/images/cloudpractitionercert.png height=64 width=64></a><p>AWS Cloud<br>Practitioner</p>
+</ul>
+</div>
+
 <ul>
-<li>AWS EC2 instance using an Amazon Linux AMI
-<li>LAMP stack with Linux, Apache, MySQL and PHP
-<li>Memcached between web server and MySQL
-<li>Python for background scripts, mainly for parsing log files
-<li>HTML, CSS and Javascript
-<li>AJAX for updating the CD page content
-<li>Javascript libraries Highcharts and Highmaps for graphing
-<li>Searching? Just Swish-e
+<li>Amazon EC2, Amazon S3, AWS Lambda, Amazon Kinesis Data Firehose
+<li>Apache, MySQL, Memcached, Swish
+<li>Python and Golang for background scripts
+<li>PHP, Javascript, AJAX, JQuery, Highcharts and Highmaps for data display
 </ul>
 <div class="cdheaderrow cf">
    <div class="hideoverflow">
