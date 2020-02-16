@@ -3,14 +3,12 @@ Docroot and images for http://corral.com
 
 ![Alt text](apple-touch-icon.png "corral.com")
 
-Background tools are found in the <a href="https://github.com/ronnycorral/siteutils">siteutils</a> repository.
+This is a dump of the docroot for my website. Background tools are found in the <a href="https://github.com/ronnycorral/siteutils">siteutils</a> repository.
 <p>
 <p>
-Things to do
+Things I need to to add to get everything:
 <ul>
-<li>javascript dirctory - The javascript directory needs some clean up of the libraries
-<li>css directory - there is some jquery related css I need to clean up or document
-<li>highcharts and highmaps - I need up date this. I'm way out of date here
-<li>clean up and replace swish - Since swish isn't around anymore I need to make sure I can recreate searching or replace it
+<li>js dirctory - There is some highcharts/highmaps content I need to clean up and document
+<li>css directory - There is some jquery content I need to clean up and document
+<li>clean up and replace swish - Since swish isn't around anymore I need to make sure I can recreate searching or replace it although this is probably part of <a href="https://github.com/ronnycorral/siteutils">siteutils</a>
 <ul>
-
