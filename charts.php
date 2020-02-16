@@ -103,7 +103,7 @@ mysqli_close($dbc);
             ];
          </script>
 </head>
-<body onload="drawPieChart('sitecharts', sqlattempts,'Valid SQL Calls vs. SQL Injection Attempts','SQL calls made');">
+<body onload="drawVisitorMap('sitecharts', countrycodecount);">
 
 <h1 class="headingcenter">Statistics For The Site</h1>
 
