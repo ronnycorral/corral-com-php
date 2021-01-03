@@ -34,15 +34,15 @@
 
 <div class="homeicons cf">
 <ul class="iconrowul">
-   <li><a href=https://www.youracclaim.com/earner/earned/badge/4e0ed698-66e4-4399-80b7-fd1e61ac8857><img class="roundcorner" src=/images/devopscert.png height=64 width=64></a><p>AWS DevOps<br>Professional</p>
-   <li><a href=https://www.youracclaim.com/earner/earned/badge/0d977ba1-6e69-43af-90ab-a0b0f1300062><img class="roundcorner" src=/images/bigdatacert.png height=64 width=64></a><p>AWS Big Data<br>Specialty</p>
+   <li><a href=https://www.youracclaim.com/badges/4e0ed698-66e4-4399-80b7-fd1e61ac8857/public_url><img class="roundcorner" src=/images/devopscert.png height=64 width=64></a><p>AWS DevOps<br>Professional</p>
+   <li><a href=https://www.youracclaim.com/badges/0d977ba1-6e69-43af-90ab-a0b0f1300062/public_url><img class="roundcorner" src=/images/bigdatacert.png height=64 width=64></a><p>AWS Big Data<br>Specialty</p>
 </ul>
 </div>
 <div class="homeicons cf">
 <ul class="iconrowul">
    <li><img class="roundcorner" src=/images/1by1.gif height=64 width=64>
-   <li><a href=https://www.youracclaim.com/earner/earned/badge/58907ff5-4196-4c2c-aa63-9058d6dff48d><img class="roundcorner" src=/images/sysopscert.png height=64 width=64></a><p>AWS SysOps<br>Associate</p>
-   <li><a href=https://www.youracclaim.com/earner/earned/badge/460353d2-6287-482e-8c3b-c7f3fad9e0a3><img class="roundcorner" src=/images/cloudpractitionercert.png height=64 width=64></a><p>AWS Cloud<br>Practitioner</p>
+   <li><a href=https://www.youracclaim.com/badges/58907ff5-4196-4c2c-aa63-9058d6dff48d/public_url><img class="roundcorner" src=/images/sysopscert.png height=64 width=64></a><p>AWS SysOps<br>Associate</p>
+   <li><a href=https://www.youracclaim.com/badges/460353d2-6287-482e-8c3b-c7f3fad9e0a3/public_url><img class="roundcorner" src=/images/cloudpractitionercert.png height=64 width=64></a><p>AWS Cloud<br>Practitioner</p>
 </ul>
 </div>
 
