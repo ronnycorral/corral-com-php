@@ -30,14 +30,14 @@ $domain = $server[(count($server)-2)];
 thewinners= [
 'Ron','Claudia'
 ];
-ticketdates = [[ [Date.UTC(2019, 8, 3), 3], [Date.UTC(2019, 8, 15), 3], [Date.UTC(2019, 11, 4), 3], [Date.UTC(2019, 11, 10), 3] ], [[Date.UTC(2019, 6, 28), 2 ]]]
+ticketdates = [[ [Date.UTC(2019, 8, 3), 3], [Date.UTC(2019, 8, 15), 3], [Date.UTC(2019, 11, 4), 3], [Date.UTC(2019, 11, 10), 3] ], [[Date.UTC(2019, 6, 28), 2 ], [Date.UTC(2020, 2, 3), 2] ] ]
 
 winningcount= [
-{y: 4,url: ''},{y: 1,url: ''}
+{y: 4,url: ''},{y: 2,url: ''}
 ];
             percentagewins= [
                ['Ron',4],
-               ['Claudia',1]
+               ['Claudia',2]
             ];
          </script>
 </head>
